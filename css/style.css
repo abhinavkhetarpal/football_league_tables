@@ -1,0 +1,76 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.leagues{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 5% auto;
+  justify-content: center;
+  gap: 80px;
+  
+}
+a img{
+    height: 150px;
+    width: 150px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1 {
+  text-align: center;
+  /* margin-top: 50px; */
+}
+
+body > a{
+  margin-left: 200px;
+}
+select{
+  margin-left: 45px;
+}
+
+/******************************************
+/* Table Style
+/*******************************************/
+
+table.GeneratedTable {
+  margin: 10px auto 100px auto;
+  width: 61%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  /* border-width: 1px; */
+  /* border-color: #cfcfcf; */
+  /* border-style: solid; */
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-bottom: 0.1px solid #d0d0d0;
+  padding: 10px;
+  line-height: 1em;
+}
+
+table.GeneratedTable thead {
+  background-color: #ffffff;
+  text-align: left;
+}
+
+
+/******************************************
+/* Hidden Leagues
+/*******************************************/
+
+.nodisplay{
+  display: none;
+}
