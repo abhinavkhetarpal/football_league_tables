@@ -1,10 +1,7 @@
-//Example fetch using pokemonapi.co
-// document.querySelector('button').addEventListener('click', getFetch)
 
-  // const choice = document.querySelector('input').value
   
  
-  const justCors = "https://justcors.com/tl_f9c9ecb/"
+  const justCors = "https://justcors.com/tl_ced00e7/"
   const url = 'https://api.football-data.org/v4/competitions/'
 
   fetch(justCors + url,{
