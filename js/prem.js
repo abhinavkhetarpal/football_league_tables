@@ -1,4 +1,4 @@
-const justCors = "https://justcors.com/tl_ced00e7/"
+const justCors = "https://justcors.com/tl_da917e2/"
 const url = 'https://api.football-data.org/v4/competitions/'
 
 document.querySelector('select').addEventListener('change', getStandings)
@@ -14,7 +14,6 @@ function getStandings(){
     })
         .then(res => res.json()) // parse response as JSON
         .then(data => {
-            console.log(data)         
             populateTable(data)
         })
         .catch(err => {
@@ -49,7 +48,7 @@ function populateTable(data){
     const teams = data.standings[0].table
     for (let i = 0 ; i < teams.length; i++){
         document.querySelectorAll('td:first-child')[i].innerText = teams[i].position; // Rank
-        document.querySelectorAll('td:nth-child(2)')[i].innerText = teams[i].team.shortName; // Team Name
+        document.querySelectorAll('td:nth-child(2)')[i].innerHTML = `<img src = ${teams[i].team.crest}> ${teams[i].team.shortName}` // Team Name & Emblem
         document.querySelectorAll('td:nth-child(3)')[i].innerText = teams[i].playedGames; // Games Played
         document.querySelectorAll('td:nth-child(4)')[i].innerText = teams[i].won // Games Won
         document.querySelectorAll('td:nth-child(5)')[i].innerText = teams[i].draw // Games Drawn
@@ -63,7 +62,6 @@ function populateTable(data){
 
 }
 
-
 function lastFive(i,teams){
     let icons = ""
     const lastFiveResults = teams[i].form.split(",").join("")
@@ -76,6 +74,9 @@ function lastFive(i,teams){
         }
         else if (lastFiveResults[j] == "D"){
             icons+= `<img src = "css/assets/draw.svg"> `
+        }
+        else {
+            icons+= `<img src = "css/assets/nores.svg"> `
         }
     }
     return icons

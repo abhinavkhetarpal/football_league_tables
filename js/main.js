@@ -1,7 +1,7 @@
 
   
  
-  const justCors = "https://justcors.com/tl_ced00e7/"
+  const justCors = "https://justcors.com/tl_da917e2/"
   const url = 'https://api.football-data.org/v4/competitions/'
 
   fetch(justCors + url,{
@@ -11,10 +11,8 @@
   })
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data)
         for (let i=0; i<13; i++){
           document.getElementById(`${i}`).src = data.competitions[i].emblem
-          
         } 
       })
       .catch(err => {
