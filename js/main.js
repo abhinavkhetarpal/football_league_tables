@@ -1,7 +1,7 @@
 
   
  
-  const justCors = "https://justcors.com/tl_da917e2/"
+  const justCors = "https://justcors.com/tl_66090aa/"
   const url = 'https://api.football-data.org/v4/competitions/'
 
   fetch(justCors + url,{
