@@ -10,7 +10,7 @@ Discover the football league tables of the top 4 leagues in the world.
 
 Used the [football-data.org](https://www.football-data.org/) API to fetch the data for Brazil Serie A, English Premier League, Serie A, & LaLiga.
 
-##Usage:
+## Usage:
 
 1) Update "justcors" variable's temporary link
 2) Launch index.html
