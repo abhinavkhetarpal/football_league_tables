@@ -12,7 +12,7 @@ Used the [football-data.org](https://www.football-data.org/) API to fetch the da
 
 ## Usage:
 
-Launch https://football-league-standings.netlify.app/
+https://football-league-standings.netlify.app/
 
 ## Optimizations
 
