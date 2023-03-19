@@ -16,11 +16,13 @@ Used the [football-data.org](https://www.football-data.org/) API to fetch the da
 
 ## Optimizations
 
-A Cross-Origin Resource Sharing (CORS) error that is being temporarily solved by reassigning the "justcors" variable (in main.js & prem.js) using [cors-anywhere](https://cors-anywhere.herokuapp.com/)
+A Cross-Origin Resource Sharing (CORS) error is currently being solved by routing the request to the football-data.org API through a proxy [cors-anywhere](https://cors-anywhere.herokuapp.com/)
 
-In the future, I would love to work with an API I came across recently: https://www.api-football.com/documentation-v3. This API provides a lot more statistics such as top scorers, players and coaches, transfers, injuries, etc that could be really cool to include.
+In the future, I would love to work with the following API: https://www.api-football.com/documentation-v3. This API provides more statistics on players, coaches, transfers, injuries, etc.
 
 ## Lessons Learned:
+
+Learned about Cross-Origin Resource Sharing and how the Access-Control-Allow-Origin Header [works](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9).
 
 Learned about Nodelists and how they are different from Arrays, i.e. if we want to display a string of text, we must use the innerText property as opposed to direct assignment.
 
