@@ -1,6 +1,6 @@
 # Football Standings
 
-Discover the [football league tables](https://football-league-standings.netlify.app/) of the top 4 leagues in the world. 
+Discover the [football league tables](https://football-league-standings.netlify.app/) of the top 4 leagues in the world.
 
 ![2020 Premier League Table](css/assets/prem-2020.png)
 
@@ -12,12 +12,11 @@ Used the [football-data.org](https://www.football-data.org/) API to fetch the da
 
 ## Usage:
 
-1) Update "justcors" variable's temporary link
-2) Launch index.html
+1. Launch https://football-league-standings.netlify.app/
 
 ## Optimizations
 
-For the time being, there is a Cross-Origin Resource Sharing (CORS) error that is being temporarily solved by reassigning the "justcors" variable (in main.js & prem.js) using [justcors.com](https://justcors.com/) 
+A Cross-Origin Resource Sharing (CORS) error that is being temporarily solved by reassigning the "justcors" variable (in main.js & prem.js) using [cors-anywhere](https://cors-anywhere.herokuapp.com/)
 
 In the future, I would love to work with an API I came across recently: https://www.api-football.com/documentation-v3. This API provides a lot more statistics such as top scorers, players and coaches, transfers, injuries, etc that could be really cool to include.
 
