@@ -1,6 +1,6 @@
 # Football Standings
 
-Discover the football league tables(https://football-league-standings.netlify.app/) of the top 4 leagues in the world. 
+Discover the [football league tables](https://football-league-standings.netlify.app/) of the top 4 leagues in the world. 
 
 ![2020 Premier League Table](css/assets/prem-2020.png)
 
