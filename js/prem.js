@@ -1,4 +1,4 @@
-// const justCors = "https://justcors.com/tl_80c679d/"
+const justCors = "https://justcors.com/tl_80c679d/"
 const url = 'https://api.football-data.org/v4/competitions/'
 
 document.querySelector('select').addEventListener('change', getStandings)
@@ -7,7 +7,7 @@ function getStandings(){
     let season = document.querySelector('select').value
     if (season == "Not A Season") return 0
    
-    fetch(url + leagueSelector() + season,{
+    fetch(justCors + url + leagueSelector() + season,{
         headers: {
         "X-Auth-Token": "77bf0d030b9a42a3a0791ddff8c53b03"
         }
