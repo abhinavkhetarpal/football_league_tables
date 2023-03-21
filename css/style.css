@@ -20,17 +20,25 @@
   
 }
 a img{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: auto;
+    border: none;
+    border-radius: 20px;
 }
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 h1 {
   text-align: center;
-  /* margin-top: 50px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.indexh1{
+  color: white;
 }
 
 body > a{
@@ -40,14 +48,26 @@ select{
   margin-left: 45px;
 }
 
+img {
+  display: none;
+}
+
+img[src] {
+  display: inline-block;
+}
+
+select{
+  background-color: #ebe9e6;
+}
+
 /******************************************
 /* Table Style
 /*******************************************/
 
 table.GeneratedTable {
   margin: 10px auto 100px auto;
-  width: 61%;
-  background-color: #ffffff;
+  width: 70%;
+  background-color: #ebe9e6;
   border-collapse: collapse;
   /* border-width: 1px; */
   /* border-color: #cfcfcf; */
@@ -62,10 +82,9 @@ table.GeneratedTable td, table.GeneratedTable th {
 }
 
 table.GeneratedTable thead {
-  background-color: #ffffff;
+  background-color: #ebe9e6;
   text-align: left;
 }
-
 
 /******************************************
 /* Hidden Leagues
@@ -81,4 +100,17 @@ table.GeneratedTable thead {
 
 td:nth-child(2) img{
   width: 5%; 
+}
+
+
+/******************************************
+/* Backgrounds
+/*******************************************/
+
+.mainbg{
+  background: no-repeat center url('assets/main-bg.jpg');
+}
+
+.bg{
+  background-color: #ebe9e6;
 }
