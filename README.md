@@ -19,6 +19,8 @@ Used the [football-data.org](https://www.football-data.org/) API to fetch the da
 
 For the time being, there is a Cross-Origin Resource Sharing (CORS) error that is being temporarily solved by reassigning the "justcors" variable (in main.js & prem.js) using [justcors.com](https://justcors.com/) 
 
+In the future, I would love to work with an API I came across recently: https://www.api-football.com/documentation-v3. This API provides a lot more statistics such as top scorers, players and coaches, transfers, injuries, etc that could be really cool to include.
+
 ## Lessons Learned:
 
 Learned about Nodelists and how they are different from Arrays, i.e. if we want to display a string of text, we must use the innerText property as opposed to direct assignment.
