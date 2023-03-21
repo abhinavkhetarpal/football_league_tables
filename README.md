@@ -22,6 +22,8 @@ In the future, I would love to work with the following API: https://www.api-foot
 
 ## Lessons Learned:
 
+Learned how to fetch data from an API, style, and display it.
+
 Learned about Cross-Origin Resource Sharing and how the Access-Control-Allow-Origin Header [works](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9).
 
 Learned about Nodelists and how they are different from Arrays, i.e. if we want to display a string of text, we must use the innerText property as opposed to direct assignment.
