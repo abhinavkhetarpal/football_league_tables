@@ -1,6 +1,6 @@
 # Football Standings
 
-Discover the [football league tables](https://football-league-standings.netlify.app/) of the top 4 leagues in the world.
+Discover the [football league tables](https://football-league-standings.netlify.app/) of Brazil Serie A, English Premier League, Italian Serie A, and LaLiga.
 
 ![](css/assets/demo.gif)
 
