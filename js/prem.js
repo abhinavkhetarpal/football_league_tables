@@ -7,7 +7,7 @@ function getStandings(){
     let season = document.querySelector('select').value
     if (season == "Not A Season") return 0
    
-    fetch(justCors + url + leagueSelector() + season,{
+    fetch(url + leagueSelector() + season,{
         headers: {
         "X-Auth-Token": "77bf0d030b9a42a3a0791ddff8c53b03"
         }
