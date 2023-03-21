@@ -16,7 +16,7 @@ https://football-league-standings.netlify.app/
 
 ## Optimizations
 
-A Cross-Origin Resource Sharing (CORS) error is currently being solved by routing the request to the football-data.org API through a proxy [cors-anywhere](https://cors-anywhere.herokuapp.com/)
+A Cross-Origin Resource Sharing (CORS) error is currently being solved by routing the request to the football-data.org API through a proxy [cors-anywhere](https://cors-anywhere.herokuapp.com/).
 
 In the future, I would love to work with the following API: https://www.api-football.com/documentation-v3. This API provides more statistics on players, coaches, transfers, injuries, etc.
 
