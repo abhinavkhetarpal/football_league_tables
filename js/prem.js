@@ -1,4 +1,4 @@
-const justCors = "https://cors-anywhere.herokuapp.com/"
+const justCors = "https://justcors.com/tl_686f458/"
 const url = 'https://api.football-data.org/v4/competitions/'
 
 document.querySelector('select').addEventListener('change', getStandings)
