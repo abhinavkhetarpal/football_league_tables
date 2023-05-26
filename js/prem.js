@@ -1,4 +1,4 @@
-const justCors = "https://justcors.com/tl_686f458/"
+const justCors = "https://justcors.com/l_o8sw4ufzvag/"
 const url = 'https://api.football-data.org/v4/competitions/'
 
 document.querySelector('select').addEventListener('change', getStandings)
